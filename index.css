@@ -1,21 +1,2 @@
-
-/**
- * Preact logo.
- */
-
-.logo[data-logo="Preact"] {
-  width: 3.479686875065782em;
-}
-
-.logo[data-logo="Preact"] > * {
-  background-image: url(images/logo.svg);
-  margin: .03em 0;
-}
-
-.logo[data-logo="Preact"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Preact"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
